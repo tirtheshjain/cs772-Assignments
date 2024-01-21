@@ -18,7 +18,7 @@ for i in range(1024):
     temp = i
     for j in range(10):
         palindrome_dict['x'+str(j)] = temp%2 # Store 10 instances of the dataset
-        temp //= 2;
+        temp //= 2
     
     # If number is palindrome mark the output labes as 1 else 0
     if isPalindrome(i):
