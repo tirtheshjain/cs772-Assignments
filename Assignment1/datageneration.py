@@ -9,6 +9,7 @@ def isPalindrome(x):
     for i in range(10):
         ld = temp%2
         rev = rev*2+ld
+        temp //=2
     return rev == x
 
 # Iterate from 0 to 1023 (encluding edge values)
