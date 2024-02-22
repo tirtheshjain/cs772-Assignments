@@ -30,9 +30,8 @@ The final trained model is evaluated on a separate test set to assess its genera
 
 ## How to Run
 Execute the main script to train and evaluate the model.
-```bash
-python palindrome_classification.py
-```
+notebook : Palindrome_Classification_Code.ipynb
+
 Code demo
 ```bash
 streamlit run app.py
