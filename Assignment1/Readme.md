@@ -28,15 +28,14 @@ The final trained model is evaluated on a separate test set to assess its genera
   - pandas: 1.3.3
   - numpy: 1.21.2
 
-
+## How to Run
 Execute the main script to train and evaluate the model.
 ```bash
 python palindrome_classification.py
-
-## Code demo
-Streamlit app allows you to check whether a given 10-bit string is a palindrome.
-## How to Run
+```
+Code demo
 ```bash
 streamlit run app.py
+```
 
 
